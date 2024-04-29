@@ -1,0 +1,195 @@
+/*Dark-Theme Theme*/
+
+html {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  .block{
+      background-color: #2c2c2c;
+      color: #ffffff;
+  }
+  #shareButton,
+  #shareButton-1,
+  #shareButton-2,
+  #shareButton-4{
+      background-color: #2c2c2c;
+      border: none;
+      border-radius: 10px;
+  }
+  
+  .dialog {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    color: black;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #savedContent {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .content {
+    white-space: pre-wrap;
+  }
+  
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  .content:before {
+    content: '• ';
+    display: block;
+    float: left;
+    margin-left: -15px;
+    width: 10px;
+  }
+
+  #sidethis{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px;
+  }
+  #box1{
+    position: relative;
+  }
+  
+  #changeName {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #c14135;
+    color: white;
+    border-radius: 5px;
+}
+  
+  * {
+    margin: 5px;
+    padding: 5px;
+  }
+  body {
+    width: 350px;
+    font-size: 13px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .share-space{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  .like-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+  }
+  
+  .like-button.liked {
+    color: #e74c3c;
+    /* Red color for liked */
+  }
+  
+  h1 {
+    margin: 2px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff6f61;
+    background-color: #3a3a3a;
+  }
+  /* Block  */
+  .block {
+    outline: 1px solid lightslategrey;
+    margin: 15px 2px;
+    padding: 0px;
+    border-radius: 10px;
+  }
+  
+  /* Button Div  */
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Button class */
+  .btn {
+    background-color: #c14135;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 12px;
+    border-radius: 20px;
+  }
+  
+  /* Like Button  */
+  .like {
+    margin: 1px;
+  }
+  
+  /* Blocks  */
+  #block-1,
+  #block-2,
+  #block-3 {
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  #displaySavedContentButton {
+    background-color: #c14135;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#displaySavedContentButton:hover {
+    background-color: #9d342a;
+}
+.Centrethis{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
